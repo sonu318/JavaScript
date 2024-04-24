@@ -15,9 +15,31 @@ let valueInNumber = Number(score)
 let isPresent = "riya"
 
 let booleanIsPresentIn  = Boolean(isPresent)
-console.log(booleanIsPresentIn)
-console.log(typeof booleanIsPresentIn)
+// console.log(booleanIsPresentIn)
+// console.log(typeof booleanIsPresentIn)
 
 
 // ""  - false  type = boolean
 //"riya" - true  type = boolean
+
+
+// **********************Operations*****************************
+
+let value = 3
+let negValue = -value
+//console.log(negValue)
+
+// console.log(2+2)
+// console.log(2-1)
+// console.log(2*2)
+// console.log(2/2)
+
+let string1  = "hello"
+let string2  = " World!!"
+
+// console.log(string1+string2)
+
+
+console.log(2+1)
+console.log("2" + 1)
+console.log(2 + "1")
