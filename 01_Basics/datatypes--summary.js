@@ -39,3 +39,31 @@ console.log(typeof userEmail)
 console.log(typeof flowers)
 console.log(typeof MyObj)
 console.log(typeof myFunction)
+
+
+//***************************************************************** */
+
+//Stack (Primitive) and Heap (Non-primitive)
+
+let name1 = "Riya"
+let anothername = name1
+
+anothername = "Piya"
+
+console.log(name1)
+console.log(anothername)
+
+
+
+let userOne = {
+    Email : "user1@gmail.com",
+    age : 23
+}
+
+let userTwo = userOne
+
+userTwo.Email = "user2@gamil.com"
+userTwo.age = 10
+
+console.log(userOne)
+console.log(userTwo)
