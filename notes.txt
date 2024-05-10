@@ -1,0 +1,50 @@
+----JavaScript is a dynamically typed language, 
+which means that data types of variables are determined by the value they hold at runtime and can change throughout the program as we assign different values to them
+
+const score = 100
+
+in which we are not defining score is int or string , we can also have 
+const score = "100"
+
+
+
+----typeof datatypes
+1. undefined   =  undefined
+2. null        =  object
+3.Boolean       =   Boolean
+4.Number        =   Number
+5.String        =   String
+6.object        =   object
+7.object call   =   function
+8.Array         =   object
+
+-----Stack and Heap memory
+Stack
+Primitive data types and references
+Size is known at compile time
+Fixed memory allocated
+copy is created
+
+Heap
+Objects and functions
+Size is known at run time
+No limit for object memory
+actual references
+
+------------Math
+console.log(Math.floor(Math.random() * (max- min +1 )) + min)           //to print random value between any range
+
+
+
+---- Arrays 
+
+const months = ['Jan', 'March', 'April', 'June'];
+months.splice(1, 0, 'Feb');
+// Inserts at index 1
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+months.splice(4, 1, 'May');
+// Replaces 1 element at index 4
+console.log(months);
+// Expected output: Array ["Jan", "Feb", "March", "April", "May"]
