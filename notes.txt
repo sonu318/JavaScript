@@ -48,3 +48,6 @@ months.splice(4, 1, 'May');
 // Replaces 1 element at index 4
 console.log(months);
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
+
+
+******** Two main topics 1.Objects and 2.Events
