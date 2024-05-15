@@ -29,8 +29,19 @@ const obj2 = {3: "c" , 4 : "d"}
 // console.log(obj3)
 
 // console.log(instaUser)
-console.log(Object.keys(instaUser))
-console.log(Object.values(instaUser))
-console.log(Object.entries(instaUser))            //key-value pair [ [ 'id', '123' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(instaUser))
+// console.log(Object.values(instaUser))
+// console.log(Object.entries(instaUser))            //key-value pair [ [ 'id', '123' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
 
-console.log(instaUser.hasOwnProperty('isLoggedIn'))         //true
+// console.log(instaUser.hasOwnProperty('isLoggedIn'))         //true
+
+// ============ object de-structure =====================
+const course = {
+    coursename : "Js tutorial",
+    price : "999",
+    courseinstructor : "Sonal"
+}
+
+const {courseinstructor : instructor} = course
+
+console.log(instructor)
