@@ -25,15 +25,15 @@ const obj2 = {3: "c" , 4 : "d"}
 
 // const obj3 = {obj1 , obj2}
 // const obj3 = Object.assign({},obj1,obj2)     // {} -  target  and obj1,obj2 - source
-// const obj3 = {...obj1,...obj2}                  //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
-// console.log(obj3)
+const obj3 = {...obj1,...obj2}                  //{ '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
+console.log(obj3)
 
-// console.log(instaUser)
-// console.log(Object.keys(instaUser))
-// console.log(Object.values(instaUser))
-// console.log(Object.entries(instaUser))            //key-value pair [ [ 'id', '123' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
+console.log(instaUser)
+console.log(Object.keys(instaUser))
+console.log(Object.values(instaUser))
+console.log(Object.entries(instaUser))            //key-value pair [ [ 'id', '123' ], [ 'name', 'Sam' ], [ 'isLoggedIn', false ] ]
 
-// console.log(instaUser.hasOwnProperty('isLoggedIn'))         //true
+console.log(instaUser.hasOwnProperty('isLoggedIn'))         //true
 
 // ============ object de-structure =====================
 const course = {
@@ -45,3 +45,4 @@ const course = {
 const {courseinstructor : instructor} = course
 
 console.log(instructor)
+
