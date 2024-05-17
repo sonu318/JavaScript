@@ -45,7 +45,7 @@ if(true){
 console.log(username)                               // username is not defined
 
 
-// --------------------- interesting --------------------------
+// --------------------- interesting --------------- hoisting in js 
 addone(5)
 function addone(num){                   //can declare function at begin
     return num+1
