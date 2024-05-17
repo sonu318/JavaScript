@@ -4,8 +4,8 @@ const b = 20
 var c = 30
 }
 
-// console.log(a)               //not defined - local scope
-// console.log(b)               //not defined - local scope
+// console.log(a)               //not defined - block scope
+// console.log(b)               //not defined - block scope
 console.log(c)                  //30--- global scope 
 
 
