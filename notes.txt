@@ -51,3 +51,15 @@ console.log(months);
 
 
 ******** Two main topics 1.Objects and 2.Events
+
+
+---------------Scope of let , const , var 
+
+---const---
+The const declaration declares block-scoped local variables. The value of a constant can't be changed through reassignment using the assignment operator, but if a constant is an object, its properties can be added, updated, or removed.
+
+---let---
+The let declaration declares re-assignable, block-scoped local variables, optionally initializing each to a value.
+
+---var----
+The var statement declares function-scoped or globally-scoped variables, optionally initializing each to a value.
