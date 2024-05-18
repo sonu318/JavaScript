@@ -9,31 +9,31 @@ const user = {
     
 }
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
-// console.log(this)
+console.log(this)
 
-// function chai(){
-//     console.log(this)
-// }
+function chai(){
+    console.log(this)
+}
 
-// chai()
+chai()
 
 
-// const chai = function(){
-//     let username = "sonal"
-//     console.log(this.username)
-// }
+const chai = function(){
+    let username = "sonal"
+    console.log(this.username)
+}
 
-// chai()                                  //undefined
+chai()                                  //undefined
 
-// const chai = ()=>{
-//     let username = "sonal"
-//     console.log(this.username)
-// }
-// chai()                                      //undefined
+const chai = ()=>{
+    let username = "sonal"
+    console.log(this.username)
+}
+chai()                                      //undefined
 
 
 //------------Arrow functions---------
