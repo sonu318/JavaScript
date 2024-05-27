@@ -70,3 +70,16 @@ The var statement declares function-scoped or globally-scoped variables, optiona
 The value of this in JavaScript depends on how a function is invoked (runtime binding), not how it is defined. When a regular function is invoked as a method of an object (obj.method()), this points to that object. When invoked as a standalone function (not attached to an object: func()), this typically refers to the global object (in non-strict mode) or undefined (in strict mode).
 
 Arrow functions differ in their handling of this: they inherit this from the parent scope at the time they are defined. This behavior makes arrow functions particularly useful for callbacks and preserving context. However, arrow functions do not have their own this binding. Therefore, their this value cannot be set by bind(), apply() or call() methods, nor does it point to the current object in object methods.
+
+
+
+----------IIFE-----------------------
+An IIFE (Immediately Invoked Function Expression) is a JavaScript function that runs as soon as it is defined. 
+
+Use cases -
+Avoid polluting the global namespace-
+Because our application could include many functions and global variables from different source files, it's important to limit the number of global variables. If we have some initiation code that we don't need to use again, we could use the IIFE pattern. As we will not reuse the code again, using IIFE in this case is better than using a function declaration or a function expression.
+
+Execute an async function
+
+The module pattern

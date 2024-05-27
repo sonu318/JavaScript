@@ -1,0 +1,14 @@
+//Imendiately Invoked Function Epressions (IIFE)
+
+(function chai(){
+    //named IIFE
+    console.log(`DB connected`)
+})();                                   //if two IIFE then use semicolon
+
+// chai()
+
+//()()
+
+( (name) => {
+    console.log(`DB connected - ${name}`)
+} )('sonal');
