@@ -1,3 +1,5 @@
+//while loop
+
 
 let index = 0
 
@@ -14,6 +16,9 @@ while(arr < myArray.length){
     console.log(`Array ${myArray[arr]}`)
     arr = arr +1
 }
+
+
+//do while loop
 
 let score = 0
 
