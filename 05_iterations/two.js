@@ -7,7 +7,7 @@ while(index <= 10){
 }
 
 
-let myArray = ["Flash" , "Batman" , "Ironmane"]
+let myArray = ["Flash" , "Batman" , "Ironman"]
 
 let arr = 0 
 while(arr < myArray.length){
