@@ -6,7 +6,7 @@
 
 ```javascript
 const buttons = document.querySelector('.button');
-const bodt = document.querySelector('body');
+const body = document.querySelector('body');
 
 buttons.forEach(function(button){
     button.addEventListener('click',function(e){
@@ -26,3 +26,8 @@ buttons.forEach(function(button){
         }
     });
 });
+
+
+## Project 2 - 
+
+```javascript
