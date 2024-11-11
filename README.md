@@ -2,7 +2,7 @@
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events
 
 
-JavaScript Execution Context :
+# JavaScript Execution Context :
 
 While reading through HTML, if the browser encounters JavaScript code to run via a <script> tag or an attribute that contains JavaScript code like onClick, it sends it to its JavaScript engine.
 
