@@ -34,13 +34,13 @@
 
 //EventCapturing 
 
-// document.getElementById('images').addEventListener('click',function(e){
-//         console.log('clicked inside the ul')
-//     },false)
+document.getElementById('images').addEventListener('click',function(e){
+        console.log('clicked inside the ul')
+    },false)
 
-//     document.getElementById('owl').addEventListener('click',function(e){
-//         console.log('owl clicked ')
-//     },false)
+    document.getElementById('owl').addEventListener('click',function(e){
+        console.log('owl clicked ')
+    },false)
 
 // output -
 //owl clicked 
@@ -48,17 +48,23 @@
 
 // EventBubbling
 
-document.getElementById('images').addEventListener('click',function(e){
-        console.log('clicked inside the ul')
-    },true)
+// document.getElementById('images').addEventListener('click',function(e){
+//         console.log('clicked inside the ul')
+//     },true)
 
-    document.getElementById('owl').addEventListener('click',function(e){
-        console.log('owl clicked ')
-        //e.stopPropagation()
-    },true)
+//     document.getElementById('owl').addEventListener('click',function(e){
+//         console.log('owl clicked ');
+//         e.stopPropagation()
+//     },true)
 // output
 //clicked inside the ul
 //owl clicked 
+
+document.getElementById('google').addEventListener('click',function(e){
+    e.preventDefault();
+    e.stopPropagation();
+    console.log('google clicked')
+})
 
 </script>
 </html>
