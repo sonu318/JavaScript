@@ -31,4 +31,6 @@ Since every function call gets its own FEC, there can be more than one FEC in th
 # Async javascript
 <img width="902" alt="image" src="https://github.com/user-attachments/assets/c77c704e-3e00-4193-bfb9-7a154f6d649d">
 
+# Promise
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
