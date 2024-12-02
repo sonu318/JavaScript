@@ -28,3 +28,25 @@ const PromisThree = new Promise(function(resolve,reject){
 PromisThree.then(function(user){
     console.log(user)
 })
+
+
+const PromiseFour = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = false 
+        if(!error){
+            resolve({username : "sonal" , data : "data"})
+        }else{
+            reject("Something went wrong")
+        }
+        
+    },1000)
+})
+
+PromiseFour.then(function(user){
+    console.log(user)
+    return user.username
+}).then(function(myuser){
+    console.log(myuser)
+}).catch(function(error){
+    console.log(error)
+})
