@@ -52,3 +52,26 @@ PromiseFour.then(function(user){
 }).finally(function(){
     console.log("Promis has already resolved or rejected")
 })
+
+const PromiseFive = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = true 
+        if(!error){
+            resolve({username : "javascript" , password : "data"})
+        }else{
+            reject("javascript failed")
+        }
+        
+    },1000)
+})
+
+async function consumePromiseFive(){ 
+    try {
+        const resposne = await PromiseFive
+        console.log(resposne)
+    } catch (error) {
+        console.log(error)
+    }
+}
+
+consumePromiseFive()
