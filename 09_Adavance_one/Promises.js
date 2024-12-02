@@ -75,3 +75,25 @@ async function consumePromiseFive(){
 }
 
 consumePromiseFive()
+
+// async function getAllUsers(params) {
+//     try {
+//         const resposne  = await fetch('https://jsonplaceholder.typicode.com/users')
+//     const data = await resposne.json()
+
+//     console.log(data)
+//     } catch (error) {
+//         console.log(error)
+//     }
+
+// }
+
+// getAllUsers()
+
+fetch('https://jsonplaceholder.typicode.com/users').then(function(response){
+    return response.json()
+}).then(function(data){
+    console.log(data)
+}).catch(function(error){
+    console.log(error)
+})
