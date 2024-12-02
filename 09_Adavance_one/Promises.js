@@ -49,4 +49,6 @@ PromiseFour.then(function(user){
     console.log(myuser)
 }).catch(function(error){
     console.log(error)
+}).finally(function(){
+    console.log("Promis has already resolved or rejected")
 })
