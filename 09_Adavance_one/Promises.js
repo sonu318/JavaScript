@@ -18,3 +18,13 @@ new Promise(function(resolve,reject){
 }).then(function(){
     console.log("asyn 2 resloved")
 })
+
+const PromisThree = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        resolve({user : "username" , data : "data"})
+    },1000)
+})
+
+PromisThree.then(function(user){
+    console.log(user)
+})
