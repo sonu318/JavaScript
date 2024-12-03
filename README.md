@@ -34,3 +34,8 @@ Since every function call gets its own FEC, there can be more than one FEC in th
 # Promise
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+# Fetch API
+
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch
+
