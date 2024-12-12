@@ -10,6 +10,14 @@ class User{
     set password(password){
         this._password = password.toUpperCase()
     }
+
+    get email(){
+        return this._email
+    }
+
+    set email(value){
+        this._email = value
+    }
 }
 
 const sonal = new User('sonal@gmail.com' , '123a')
